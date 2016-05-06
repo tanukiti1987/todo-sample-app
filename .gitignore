@@ -19,3 +19,6 @@
 # intended to run in multiple environments; otherwise, check them in:
 .ruby-version
 # .ruby-gemset
+
+.env
+/public/assets
