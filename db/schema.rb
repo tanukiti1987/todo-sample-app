@@ -14,10 +14,10 @@
 ActiveRecord::Schema.define(version: 20140528233730) do
 
   create_table "tasks", force: :cascade do |t|
-    t.string   "name"
+    t.string   "name",           limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.boolean  "completed_flag", default: false
+    t.boolean  "completed_flag",             default: false
   end
 
 end
